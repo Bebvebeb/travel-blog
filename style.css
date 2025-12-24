@@ -28,3 +28,29 @@ a {
 a:hover {
   text-decoration: underline;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+  background-color: #ffffff;
+}
+
+th, td {
+  border: 2px solid #6b8e23; /* ירוק זית */
+  padding: 12px;
+  text-align: right;
+  vertical-align: top;
+}
+
+th {
+  background-color: #e9f0dc; /* ירוק זית בהיר */
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f6f8f2;
+}
+
+tbody tr:hover {
+  background-color: #eef3e4;
+}
